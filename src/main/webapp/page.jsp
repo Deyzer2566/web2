@@ -43,7 +43,7 @@
         <input type="text" id="r" name="r">
         <input type="button" id="check" value="Проверить" />
     </form>
-    <table>
+    <table id="table">
         <thead>
         <tr>
             <th>X</th>
