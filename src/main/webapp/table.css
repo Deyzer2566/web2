@@ -1,0 +1,19 @@
+#table thead{
+	color: #ff00ff;
+	background-color: #aaffee;
+}
+#table tbody{
+	//color: #123456;
+	//background-color: #789abc;
+}
+#table td{
+	border: 1px solid #eeeeee;
+	padding: 0px;
+}
+#table tr td{
+	border-color: #ED4630;
+}
+#table{
+	margin-left: auto;
+	margin-right: auto;
+}

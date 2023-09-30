@@ -1,0 +1,11 @@
+header{
+	color: #10dd10;
+	font: monospace;
+}
+header p{
+	font-size: 20px;
+	margin: 0px;
+}
+header h1{
+	font-size: 22px;
+}

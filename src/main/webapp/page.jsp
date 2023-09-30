@@ -11,6 +11,10 @@
 <html>
 <head>
     <title>Проверка попадания точки в область</title>
+    <link rel="stylesheet" href="hat.css" type="text/css">
+    <link rel="stylesheet" href="form.css" type="text/css">
+    <link rel="stylesheet" href="table.css" type="text/css">
+    <link rel="stylesheet" href="page_styles.css" type="text/css">
 </head>
 <%!
     public List<PointInArea> getPoints(HttpSession session) {
