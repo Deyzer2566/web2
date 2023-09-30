@@ -68,7 +68,7 @@
     <script>
         <% if(session.getAttribute("exceptionMessage") != null){%>
             alert('<%=(String)session.getAttribute("exceptionMessage")%>');
-        <%  session.setAttribute("exceptionMessage",null);
+        <%  session.removeAttribute("exceptionMessage");
         }%>
     </script>
     <script type="text/javascript" src="Validation.js"></script>
