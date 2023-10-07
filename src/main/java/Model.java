@@ -35,5 +35,11 @@ public class Model {
             points = getUsersPoints(session);
         }
         points.add(new PointInArea(p, pointInArea));
+        List<PointInArea> newPoints = new LinkedList<>();
+        points.forEach(z->
+            newPoints.add(new PointInArea(z,Validator.checkPointsCoordinats(new Point(z.getX(), z.getY(), r))))
+        );
+        session.setAttribute("points", newPoints);
+        session.setAttribute("curR", Float.valueOf(r));
     }
 }

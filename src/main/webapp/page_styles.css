@@ -1,3 +1,7 @@
 * {
 	text-align: center;
 }
+
+#errorMessage {
+	color: #ff1111;
+}

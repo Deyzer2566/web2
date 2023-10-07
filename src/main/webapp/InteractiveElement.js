@@ -7,5 +7,6 @@ document.getElementById("canvas").onclick = (ev) => {
     let y = (150-ev.clientY+rect.top)/100*r.value;
     form.elements.x.value = Math.round(x);
     form.elements.y.value = y;
-    form.submit();
+    if(checkX() && checkY() && checkR())
+        form.submit();
 }

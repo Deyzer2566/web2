@@ -18,8 +18,10 @@ public class AreaCheckServlet extends HttpServlet {
         String r = request.getParameter("r");
         try{
             Model.checkPoint(request.getSession(), x, y, r);
+            response.setStatus(200);
         } catch (IllegalArgumentException e) {
             request.getSession().setAttribute("exceptionMessage", e.getMessage());
+            response.setStatus(400);
         }
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
