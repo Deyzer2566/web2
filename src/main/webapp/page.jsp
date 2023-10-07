@@ -36,7 +36,7 @@
                 <input type="button" value="<%=i%>"/>
             <%}%>
         </div>
-        <input type="hidden" name="x" id="x" onkeyup='saveValue(this);'>
+        <input type="hidden" name="x" id="x">
         <label for="y">Введите координату Y [-3 ... 5]:</label>
         <input type="text" id="y" name="y" onkeyup='saveValue(this);'>
         <label for="r">Введите координату R [1 ... 4]:</label>

@@ -8,6 +8,7 @@ for(let i = 0;i<x.children.length;i++){
     but.onclick = function(){
         labels = document.getElementsByTagName('label');
         document.getElementById("form").elements.x.value=x.children[i].value;
+        saveValue(document.getElementById("form").elements.x);
         for(let j = 0; j < labels.length; j++ ) {
             if (labels[j].htmlFor == "x_buttons")
                 label = labels[j];

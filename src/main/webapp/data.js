@@ -34,7 +34,7 @@ function getSavedValueForX(v){
 	}
 	document.getElementById("form").elements.x.value=v1;
 	if(v1 != "")
-		label.innerHTML ='Введите координату X='+v1+":";
+		label.innerHTML = 'Введите координату X=' + v1 + ":";
 }
 //get the saved value function - return the value of "v" from localStorage.
 function getSavedValue  (v){
